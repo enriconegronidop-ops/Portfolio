@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio - Il Tuo Nome</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f5f5f5;
+color:#333;
+}
+
+header{
+background:#111;
+color:white;
+padding:20px;
+position:sticky;
+top:0;
+}
+
+nav{
+display:flex;
+justify-content:center;
+gap:30px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:80px 20px;
+max-width:1000px;
+margin:auto;
+}
+
+.hero{
+text-align:center;
+padding:120px 20px;
+background:linear-gradient(135deg,#4f46e5,#9333ea);
+color:white;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:20px;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+}
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.skill{
+background:#4f46e5;
+color:white;
+padding:8px 15px;
+border-radius:20px;
+font-size:14px;
+}
+
+.contact{
+text-align:center;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#111;
+color:white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<nav>
+<a href="#home">Home</a>
+<a href="#projects">Progetti</a>
+<a href="#skills">Competenze</a>
+<a href="#about">Chi sono</a>
+<a href="#contact">Contatti</a>
+</nav>
+</header>
+
+<!-- HOME -->
+
+<section id="home" class="hero">
+<h1>Il tuo nome</h1>
+<p>Web Developer | Designer | Creative</p>
+<p>Creo siti web moderni e funzionali.</p>
+</section>
+
+<!-- PROGETTI -->
+
+<section id="projects">
+
+<h2>Progetti</h2>
+
+<div class="projects">
+
+<div class="card">
+<h3>Progetto 1</h3>
+<p>Breve descrizione del progetto.</p>
+</div>
+
+<div class="card">
+<h3>Progetto 2</h3>
+<p>Breve descrizione del progetto.</p>
+</div>
+
+<div class="card">
+<h3>Progetto 3</h3>
+<p>Breve descrizione del progetto.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- COMPETENZE -->
+
+<section id="skills">
+
+<h2>Competenze</h2>
+
+<div class="skills">
+
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">JavaScript</div>
+<div class="skill">React</div>
+<div class="skill">UI Design</div>
+
+</div>
+
+</section>
+
+<!-- CHI SONO -->
+
+<section id="about">
+
+<h2>Chi sono</h2>
+
+<p>
+Sono uno sviluppatore web appassionato di tecnologia e design.
+Mi piace creare siti veloci, moderni e facili da usare.
+</p>
+
+<p>
+Lavoro su progetti personali e collaboro con clienti per realizzare
+soluzioni digitali efficaci.
+</p>
+
+</section>
+
+<!-- CONTATTI -->
+
+<section id="contact" class="contact">
+
+<h2>Contatti</h2>
+
+<p>Email: tuaemail@email.com</p>
+<p>LinkedIn: linkedin.com/in/tuonome</p>
+<p>GitHub: github.com/tuonome</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Il tuo nome - Portfolio</p>
+
+</footer>
+
+</body>
+</html>
